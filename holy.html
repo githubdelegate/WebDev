@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>holy</title>
+    <style type="text/css">
+        .HolyGrail{
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header,footer{
+            flex: 0 0 50px;
+            background-color: darkgray;
+            height: 50px;
+        }
+
+        .Holy-body{
+            flex: 1;
+            display: flex;
+        }
+
+        .Holy-content{
+            flex: 1;
+            background-color: orange;
+        }
+
+        .Holy-nav,.Holy-asd{
+            flex: 0 0 12em;
+        }
+
+        .Holy-nav{
+            order: -1;
+        }
+
+    </style>
+</head>
+<body class="HolyGrail">
+<header><span>#header</span></header>
+<div class="Holy-body">
+    <main class="Holy-content">
+        <span>#center</span>
+    </main>
+    <nav class="Holy-nav"><span>#nav</span></nav>
+    <aside class="Holy-asd"><span>#aside</span></aside>
+</div>
+<footer><span>#footer</span></footer>
+</body>
+</html>
