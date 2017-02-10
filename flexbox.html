@@ -130,6 +130,39 @@
             justify-content: space-between;
         }
 
+        .flex19{
+            flex-wrap: wrap;
+            align-content: space-between;
+        }
+
+        .flex20{
+            flex-wrap: wrap;
+            align-content: space-between;
+            flex-direction: column;
+        }
+
+        .flex21{
+            flex-wrap: wrap;
+        }
+
+        .row{
+            flex-basis: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .row:nth-child(2){
+            justify-content: center;
+        }
+
+        .row:nth-child(3){
+            justify-content: space-between;
+        }
+
+        .flex22{
+            flex-wrap: wrap;
+        }
+
     </style>
 </head>
 <body>
@@ -241,6 +274,51 @@
     </div>
 
 
+    <div class="box flex19">
+        <span class="item"></span>
+        <span class="item"></span>
+        <span class="item"></span>
+        <span class="item"></span>
+        <span class="item"></span>
+        <span class="item"></span>
+    </div>
+
+    <div class="box flex20">
+        <span class="item"></span>
+        <span class="item"></span>
+        <span class="item"></span>
+        <span class="item"></span>
+        <span class="item"></span>
+        <span class="item"></span>
+    </div>
+
+    <div class="box flex21">
+        <div class="row">
+            <span class="item"></span>
+            <span class="item"></span>
+            <span class="item"></span>
+        </div>
+        <div class="row">
+            <span class="item"></span>
+        </div>
+        <div class="row">
+            <span class="item"></span>
+            <span class="item"></span>
+        </div>
+    </div>
+
+
+    <div class="box flex22">
+        <span class="item"></span>
+        <span class="item"></span>
+        <span class="item"></span>
+        <span class="item"></span>
+        <span class="item"></span>
+        <span class="item"></span>
+        <span class="item"></span>
+        <span class="item"></span>
+        <span class="item"></span>
+    </div>
 
     <!--<div class="box two left">-->
         <!--<span class="item"></span>-->
