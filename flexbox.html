@@ -3,12 +3,254 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style type="text/css">
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .container, .box {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .box {
+            background-color: gray;
+            border-radius: 5px;
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+        }
+
+        .center {
+            justify-content: center;
+        }
+
+        .right {
+            justify-content: flex-end;
+        }
+
+
+        .item,.item1,.item2,.item3 {
+            background-color: black;
+            width: 20px;
+            height: 20px;
+            border-radius: 10px;
+            margin: 5px;
+        }
+
+        .flex4{
+            align-items: center;
+        }
+
+        .flex5{
+            justify-content: center;
+            align-items: center;
+        }
+
+        .flex6 {
+            justify-content: flex-end;
+            align-items: center;
+        }
+
+        .flex7{
+            align-items: flex-end;
+        }
+
+        .flex8{
+            justify-content: center;
+            align-items: flex-end;
+        }
+
+        .flex9{
+            justify-content: flex-end;
+            align-items: flex-end;
+        }
+
+        .flex10{
+            justify-content: space-between;
+        }
+
+        .flex11{
+            justify-content: space-between;
+            flex-direction: column;
+        }
+
+        .flex12{
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .flex13{
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-end;
+        }
+
+        .flex14 {
+            justify-content: flex-start;
+        }
+        .item1:nth-child(2){
+            align-self: center;
+        }
+
+        .item2:nth-child(2){
+            align-self: flex-end;
+        }
+
+        .flex16{
+            justify-content: flex-start;
+        }
+
+        .item3:nth-child(2){
+            align-self: center;
+        }
+
+        .item3:nth-child(3){
+            align-self: flex-end;
+        }
+
+        .flex17{
+            flex-wrap: wrap;
+            justify-content: flex-end;
+            align-content: space-between;
+        }
+
+        .flex18{
+            display: flex;
+            flex-wrap: wrap;
+            align-content: space-between;
+        }
+
+        .column{
+            flex-basis: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+    </style>
 </head>
 <body>
 
 <div class="container">
-<div class="item"></div>
+    <div class="box left">
+        <span class="item"></span>
+    </div>
+
+    <div class="box center">
+        <span class="item"></span>
+    </div>
+
+    <div class="box right">
+        <span class="item"></span>
+    </div>
+
+    <div class="box flex4">
+        <span class="item"></span>
+    </div>
+
+
+    <div class="box flex5">
+        <span class="item"></span>
+    </div>
+
+    <div class="box flex6">
+        <span class="item"></span>
+    </div>
+
+    <div class="box flex7">
+        <span class="item"></span>
+    </div>
+
+
+    <div class="box flex8">
+        <span class="item"></span>
+    </div>
+
+
+    <div class="box flex9">
+        <span class="item"></span>
+    </div>
+
+
+    <div class="box flex10">
+        <span class="item"></span>
+        <span class="item"></span>
+    </div>
+
+
+    <div class="box flex10">
+        <span class="item"></span>
+        <span class="item"></span>
+    </div>
+
+
+    <div class="box flex11">
+        <span class="item"></span>
+        <span class="item"></span>
+    </div>
+
+
+    <div class="box flex12">
+        <span class="item"></span>
+        <span class="item"></span>
+    </div>
+
+
+    <div class="box flex13">
+        <span class="item"></span>
+        <span class="item"></span>
+    </div>
+
+
+    <div class="box flex14">
+        <span class="item1"></span>
+        <span class="item1"></span>
+    </div>
+
+    <div class="box flex15">
+        <span class="item2"></span>
+        <span class="item2"></span>
+    </div>
+
+    <div class="box flex16">
+        <span class="item3"></span>
+        <span class="item3"></span>
+        <span class="item3"></span>
+    </div>
+
+
+    <div class="box flex17">
+        <span class="item"></span>
+        <span class="item"></span>
+        <span class="item"></span>
+        <span class="item"></span>
+    </div>
+
+    <div class="box flex18">
+        <div class="column">
+            <span class="item"></span>
+            <span class="item"></span>
+        </div>
+        <div class="column">
+            <span class="item"></span>
+            <span class="item"></span>
+        </div>
+    </div>
+
+
+
+    <!--<div class="box two left">-->
+        <!--<span class="item"></span>-->
+        <!--<span class="item"></span>-->
+    <!--</div>-->
+
+
 </div>
+
+<div class="double"></div>
 
 </body>
 </html>
